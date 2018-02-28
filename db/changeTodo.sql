@@ -1,0 +1,1 @@
+UPDATE todos SET (title, body) = ($2, $3) WHERE id = $1;

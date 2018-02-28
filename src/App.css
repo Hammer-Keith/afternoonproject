@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40px;
+  position: fixed;
+}
+.bigBanner {
+  height: 75vh;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: white;
+  text-align: left;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
