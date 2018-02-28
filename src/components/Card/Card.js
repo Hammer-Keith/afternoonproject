@@ -1,19 +1,11 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
-export default class Card extends Component {
-    constructor(props) {
-      super(props);
-    }
+const Card = props => (
+  <div>
+    <h1>{props.todo.title}</h1>
+    <p>{props.todo.body}</p>
+    <div />
+  </div>
+);
 
-    render(){
-        return(
-            <div>
-                <h1>{this.props.todo.title}</h1>
-                <p>{this.props.todo.body}</p>
-                <div>
-
-                </div>
-            </div>
-        )
-    }
-}
+export default Card;
